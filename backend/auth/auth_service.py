@@ -4,6 +4,7 @@ import sentry_sdk
 from sqlalchemy.orm import Session
 from models.user import User
 from .security import get_password_hash, verify_password, create_access_token
+import logging
 
 logger = logging.getLogger(__name__)
 
